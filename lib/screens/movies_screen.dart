@@ -43,6 +43,7 @@ class _MoviesScreenState extends State<MoviesScreen> {
       body: CustomScrollView(
         slivers: [
           SliverAppBar(
+            automaticallyImplyLeading: false,
             expandedHeight: 200,
             flexibleSpace: FlexibleSpaceBar(
               background: Container(
